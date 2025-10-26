@@ -1,5 +1,5 @@
 # Leetcode
-I want to become a better engineer. I think it will be good to improve my problem solving skills. Leetcode seems to be a good way to go about that.
+I want to become a better engineer. I think it will be useful to improve my problem solving skills. Leetcode seems to be a good way to go about that.
 
 Each folder under `\src` contains the following two files: 
 1.  `solution.py` which contains my latest solution to the problem
