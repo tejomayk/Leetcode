@@ -5,9 +5,10 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-        lookup_dict = {}
-        for i in range(len(nums)):
-            if (target-nums[i]) in lookup_dict:
-                return [i,lookup_dict[(target-nums[i])]]
+        lookup = {}
+        for index, item in enumerate(nums):
+            complement = target-item
+            if complement in lookup:
+                return [index,lookup[complement]]
             else:
-                lookup_dict[nums[i]] = i
+                lookup[item] = index
